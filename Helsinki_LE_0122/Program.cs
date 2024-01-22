@@ -8,6 +8,25 @@ for (int i = 0; i < input.Length; i = i + 2)
 
 Console.WriteLine($"{data.Count * 2} pontszerző helyezést értek el a magyar olimpikonok.");
 
+int x = 0;
+int y = 0;
+int z = 0;
+for (int i = 0;i < data.Count; i++)
+{
+    if (data[i].helyezes = 1)
+    {
+        x + 1;
+    }
+    else if (data[i].helyezes = 2)
+    {
+        y + 1;
+    }
+    else if (data[i].helyezes = 3)
+    {
+        z + 1;
+    }
+}
+
 struct Helsinki
 {
     public int helyezes;
