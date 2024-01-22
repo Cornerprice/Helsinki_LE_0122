@@ -1,4 +1,13 @@
 ﻿string[] input = File.ReadAllLines("helsinki.txt");
+
+List<Helsinki> data = new List<Helsinki>();
+for (int i = 0; i < input.Length; i = i + 2)
+{
+    data.Add(new Helsinki(input[i], input[i + 1]));
+}
+
+Console.WriteLine($"{data.Count * 2} pontszerző helyezést értek el a magyar olimpikonok.");
+
 struct Helsinki
 {
     public int helyezes;
