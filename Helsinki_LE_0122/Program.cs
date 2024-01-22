@@ -15,15 +15,44 @@ for (int i = 0;i < data.Count; i++)
 {
     if (data[i].helyezes = 1)
     {
-        x + 1;
+        x += 1;
     }
     else if (data[i].helyezes = 2)
     {
-        y + 1;
+        y += 1;
     }
     else if (data[i].helyezes = 3)
     {
-        z + 1;
+        z += 1;
+    }
+}
+
+int pontoklacikam = 0;
+for (int i = 0;i < data.Count; i++)
+{
+    if (data[i].helyezes = 1)
+    {
+        pontoklacikam += 7;
+    }
+    else if (data[i].helyezes = 2)
+    {
+        pontoklacikam += 5;
+    }
+    else if (data[i].helyezes = 3)
+    {
+        pontoklacikam += 4;
+    }
+    else if (data[i].helyezes = 4)
+    {
+        pontoklacikam += 3;
+    }
+    else if (data[i].helyezes = 5)
+    {
+        pontoklacikam += 2;
+    }
+    else if (data[i].helyezes = 6)
+    {
+        pontoklacikam += 1;
     }
 }
 
